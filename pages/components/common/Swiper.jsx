@@ -8,10 +8,11 @@ import "swiper/css"
 import "swiper/css/pagination"
 import "swiper/css/navigation"
 
+
 import Lanche from '../../../assets/img/lanche.svg'
 import Pizza from '../../../assets/img/pizza.svg'
 import Mulher from '../../../assets/img/mulher.svg'
-import Next from '../../../assets/img/next.svg'
+import Image from 'next/image'
 
 // import Swiper core and required modules
 import SwiperCore, {
@@ -55,13 +56,14 @@ export default function App() {
 
   return (
     <>
-      <div className="lg:hidden sm:-mt-8 -mt-6">
+      <div className="lg:hidden sm:-mt-20 -mt-14">
         <Swiper slidesPerView={3} spaceBetween={4} navigation={true}>
-          <SwiperSlide><img src={Lanche.src} alt="lanche" /></SwiperSlide>
-          <SwiperSlide><img src={Pizza.src} alt="pizza" /></SwiperSlide>
-          <SwiperSlide><img src={Mulher.src} alt="mulher" /></SwiperSlide>
-          <SwiperSlide><img src={Lanche.src} alt="lanche" /></SwiperSlide>
-          <SwiperSlide><img src={Pizza.src} alt="pizza" /></SwiperSlide>
+          <SwiperSlide>
+            <a href="#"><Image src={Lanche.src} alt="lanche" width={200} height={200} /></a></SwiperSlide>
+          <SwiperSlide><a href="#"><Image src={Pizza.src} alt="pizza" width={200} height={200} /></a></SwiperSlide>
+          <SwiperSlide><a href="#"><Image src={Mulher.src} alt="mulher" width={200} height={200} /></a></SwiperSlide>
+          <SwiperSlide><a href="#"><Image src={Lanche.src} alt="lanche" width={200} height={200} /></a></SwiperSlide>
+          <SwiperSlide><a href="#"><Image src={Pizza.src} alt="pizza" width={200} height={200} /></a></SwiperSlide>
         </Swiper>
 
       </div>

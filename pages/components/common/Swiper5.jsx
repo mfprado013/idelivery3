@@ -36,9 +36,9 @@ export default function App() {
 
   return (
     <>
-      <Swiper slidesPerView={3} spaceBetween={4} className="xl:hidden sm:hidden w-full h-full mt-20 mt-6">
-        <SwiperSlide className="ml-0"><Link href="#">
-          <a className=" absolute bg-white border-solid border-2 border-black rounded-lg w-32 h-32">
+      <Swiper slidesPerView={4} spaceBetween={4} className="lg:hidden sm:block hidden w-full h-full mt-20 mt-6">
+        <SwiperSlide className="ml-4"><Link href="#">
+          <a className="absolute bg-white border-solid border-2 border-black rounded-lg w-32 h-32">
             <span className=" flex justify-center py-6"><Image src={Menu.src} alt="Ver todas" width={52} height={52} />
             </span>
             <p className="justify-center flex font-semibold -mt-4">Ver todas</p>

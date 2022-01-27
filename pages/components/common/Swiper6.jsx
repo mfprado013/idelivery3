@@ -26,10 +26,10 @@ export default function App() {
 
   return (
     <>
-      <Swiper slidesPerView={3} spaceBetween={0} className="lg:hidden sm:block  hidden mt-6 w-full h-96">
-        <SwiperSlide>
+      <Swiper slidesPerView={2} spaceBetween={0} className="lg:hidden sm:hidden mt-6 w-full h-96">
+        <SwiperSlide className="ml-2">
           <Link href="#">
-            <a className="absolute bg-white border-solid border-2 border-gray-300 rounded-md w-52 h-32">
+            <a className="absolute bg-white border-solid border-2 border-gray-300 rounded-md w-48 h-28">
               <span className="flex justify-center -ml-28 py-8">
                 <Image src={BK.src} alt="Burguer King" width={60} height={60} />
               </span>
@@ -41,7 +41,7 @@ export default function App() {
         </SwiperSlide>
         <SwiperSlide >
           <Link href="#">
-            <a className="absolute bg-white border-solid border-2 border-gray-300 rounded-md w-52 h-32">
+            <a className="absolute bg-white border-solid border-2 border-gray-300 rounded-md w-48 h-28">
               <span className="flex justify-center -ml-28 py-8">
                 <Image src={MC.src} alt="Mc Donald’s" width={52} height={52} />
               </span>
@@ -53,7 +53,7 @@ export default function App() {
         </SwiperSlide>
         <SwiperSlide>
           <Link href="#">
-            <a className="absolute bg-white border-solid border-2 border-gray-300 rounded-md w-52 h-32">
+            <a className="absolute bg-white border-solid border-2 border-gray-300 rounded-md w-48 h-28">
               <span className="flex justify-center -ml-28 py-8">
                 <Image src={CB.src} alt="Coco Bambu" width={52} height={52} />
               </span>
@@ -65,7 +65,7 @@ export default function App() {
         </SwiperSlide>
         <SwiperSlide>
           <Link href="#">
-            <a className="absolute bg-white border-solid border-2 border-gray-300 rounded-md w-52 h-32">
+            <a className="absolute bg-white border-solid border-2 border-gray-300 rounded-md w-48 h-28">
               <span className="flex justify-center -ml-28 py-8">
                 <Image src={HB.src} alt="Habib’s" width={52} height={52} />
               </span>
@@ -77,7 +77,7 @@ export default function App() {
         </SwiperSlide>
         <SwiperSlide>
           <Link href="#">
-            <a className="absolute bg-white border-solid border-2 border-gray-300 rounded-md w-52 h-32">
+            <a className="absolute bg-white border-solid border-2 border-gray-300 rounded-md w-48 h-28">
               <span className="flex justify-center -ml-28 py-8">
                 <Image src={CH.src} alt="China in Box" width={52} height={52} />
               </span>
